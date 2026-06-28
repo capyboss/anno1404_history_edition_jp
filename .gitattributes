@@ -1,0 +1,6 @@
+*.exe binary
+*.rda binary
+# ゲームデータは正確なバイト列を保持（改行・エンコーディングを変更しない）
+jp_files/** -text
+restore_en.bat text eol=crlf
+apply_jp.bat text eol=crlf

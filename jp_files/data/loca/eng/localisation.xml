@@ -1,0 +1,365 @@
+<Localisation>
+  <Speech>
+    <Directory>speech</Directory>
+  </Speech>
+  <VolumeFactor>200</VolumeFactor>
+  <GameFont>
+    <FontFilename>fonts/GEORGIA.ttf</FontFilename>
+  </GameFont>
+  <Font>
+    <Name>ConsoleFont</Name>
+    <Desc>Font used to render console texts</Desc>
+    <Flag>TextureFont</Flag>
+    <FontSize>14</FontSize>
+    <Weight>500</Weight>
+    <FontName>MS Gothic</FontName>
+  </Font>
+  <Font>
+    <Name>IngameMessages</Name>
+    <Desc>Used for ingame message bubbles</Desc>
+    <RelativeFontSize>22</RelativeFontSize>
+    <RelativeFontWidth>0</RelativeFontWidth>
+    <Weight>0</Weight>
+    <Flag>TextureFont</Flag>
+    <Flag>Antialiasing</Flag>
+    <Flag>Outline</Flag>
+    <ShadowOffset>
+      <x>1</x>
+      <y>1</y>
+    </ShadowOffset>
+    <ShadowColor>0</ShadowColor>
+    <FontName>MS Gothic</FontName>
+    <DefaultColor>4282264082</DefaultColor>
+  </Font>
+  <Font>
+    <Name>Headlines</Name>
+    <Desc>Used for menu character and objekt names</Desc>
+    <RelativeFontSize>22</RelativeFontSize>
+    <RelativeFontWidth>0</RelativeFontWidth>
+    <Weight>500</Weight>
+    <Flag>TextureFont</Flag>
+    <Flag>Antialiasing</Flag>
+    <Flag>Shadow</Flag>
+    <ShadowOffset>
+      <x>1</x>
+      <y>1</y>
+    </ShadowOffset>
+    <ShadowColor>0</ShadowColor>
+    <FontName>MS Gothic</FontName>
+    <DefaultColor>42242216120</DefaultColor>
+  </Font>
+  <Font>
+    <Name>Tooltip</Name>
+    <Desc>Used for Tooltip detail text</Desc>
+    <RelativeFontSize>18</RelativeFontSize>
+    <RelativeFontWidth>0</RelativeFontWidth>
+    <Flag>TextureFont</Flag>
+    <Flag>Antialiasing</Flag>
+    <FontName>MS Gothic</FontName>
+    <DefaultColor>4294967295</DefaultColor>
+  </Font>
+  <Font>
+    <Name>LoadingBarText</Name>
+    <Desc>Used for Text on loading bar.</Desc>
+    <RelativeFontSize>20</RelativeFontSize>
+    <RelativeFontWidth>0</RelativeFontWidth>
+    <Weight>500</Weight>
+    <Flag>TextureFont</Flag>
+    <Flag>Antialiasing</Flag>
+    <Flag>Shadow</Flag>
+    <ShadowOffset>
+      <x>1</x>
+      <y>1</y>
+    </ShadowOffset>
+    <ShadowColor>0</ShadowColor>
+    <FontName>MS Gothic</FontName>
+    <DefaultColor>42242216120</DefaultColor>
+  </Font>
+  <Font>
+    <Name>Timer</Name>
+    <Desc>Used for timers</Desc>
+    <RelativeFontSize>14</RelativeFontSize>
+    <RelativeFontWidth>0</RelativeFontWidth>
+    <Weight>700</Weight>
+    <Flag>TextureFont</Flag>
+    <Flag>Antialiasing</Flag>
+    <FontName>MS Gothic</FontName>
+    <DefaultColor>4278190080</DefaultColor>
+  </Font>
+  <Font>
+    <Name>Mainmenu Header</Name>
+    <Desc>Default for all maimenu headers</Desc>
+    <RelativeFontSize>24</RelativeFontSize>
+    <RelativeFontWidth>0</RelativeFontWidth>
+    <Weight>500</Weight>
+    <Flag>TextureFont</Flag>
+    <Flag>Antialiasing</Flag>
+    <Flag>Shadow</Flag>
+    <ShadowOffset>
+      <x>0</x>
+      <y>1</y>
+    </ShadowOffset>
+    <ShadowColor>6047786</ShadowColor>
+    <FontName>MS Gothic</FontName>
+    <DefaultColor>4278190080</DefaultColor>
+  </Font>
+  <Font>
+    <Name>Mainmenu Subheader</Name>
+    <Desc>Default for all maimenu sub headers</Desc>
+    <RelativeFontSize>20</RelativeFontSize>
+    <RelativeFontWidth>0</RelativeFontWidth>
+    <Weight>500</Weight>
+    <Flag>TextureFont</Flag>
+    <Flag>Antialiasing</Flag>
+    <Flag>Shadow</Flag>
+    <ShadowOffset>
+      <x>0</x>
+      <y>-1</y>
+    </ShadowOffset>
+    <ShadowColor>15522472</ShadowColor>
+    <FontName>MS Gothic</FontName>
+    <DefaultColor>4278190080</DefaultColor>
+  </Font>
+  <Font>
+    <Name>Mainmenu Subheader Start</Name>
+    <Desc>only Startscreen/Ingame Option</Desc>
+    <RelativeFontSize>19</RelativeFontSize>
+    <RelativeFontWidth>0</RelativeFontWidth>
+    <Weight>500</Weight>
+    <Flag>TextureFont</Flag>
+    <Flag>Antialiasing</Flag>
+    <Flag>Shadow</Flag>
+    <FontName>MS Gothic</FontName>
+    <DefaultColor>4278190080</DefaultColor>
+  </Font>
+  <Font>
+    <Name>Mainmenu text</Name>
+    <Desc>Default for all maimenu texts</Desc>
+    <RelativeFontSize>16</RelativeFontSize>
+    <RelativeFontWidth>0</RelativeFontWidth>
+    <Weight>500</Weight>
+    <Flag>TextureFont</Flag>
+    <Flag>Antialiasing</Flag>
+    <FontName>MS Gothic</FontName>
+    <DefaultColor>0</DefaultColor>
+  </Font>
+  <Font>
+    <Name>Mainmenu text black</Name>
+    <Desc>Default for all maimenu texts</Desc>
+    <RelativeFontSize>16</RelativeFontSize>
+    <RelativeFontWidth>0</RelativeFontWidth>
+    <Weight>1000</Weight>
+    <Flag>TextureFont</Flag>
+    <Flag>Antialiasing</Flag>
+    <Flag>Shadow</Flag>
+    <ShadowOffset>
+      <x>0</x>
+      <y>1</y>
+    </ShadowOffset>
+    <ShadowColor>6047786</ShadowColor>
+    <FontName>MS Gothic</FontName>
+    <DefaultColor>0</DefaultColor>
+  </Font>
+  <Font>
+    <Name>Default Shadow</Name>
+    <Desc>Used for smaller headlines in Diplomacy menu</Desc>
+    <RelativeFontSize>18</RelativeFontSize>
+    <RelativeFontWidth>0</RelativeFontWidth>
+    <Weight>500</Weight>
+    <Flag>TextureFont</Flag>
+    <Flag>Antialiasing</Flag>
+    <Flag>Shadow</Flag>
+    <ShadowOffset>
+      <x>1</x>
+      <y>1</y>
+    </ShadowOffset>
+    <ShadowColor>0</ShadowColor>
+    <FontName>MS Gothic</FontName>
+    <DefaultColor>42242216120</DefaultColor>
+  </Font>
+  <Font>
+    <Name>Hyperlink</Name>
+    <Desc>Used to render hyper links</Desc>
+    <RelativeFontSize>18</RelativeFontSize>
+    <RelativeFontWidth>0</RelativeFontWidth>
+    <Flag>TextureFont</Flag>
+    <Flag>Antialiasing</Flag>
+    <Flag>Underline</Flag>
+    <FontName>MS Gothic</FontName>
+    <DefaultColor>4278190267</DefaultColor>
+  </Font>
+  <Font>
+    <Name>Default Bold</Name>
+    <Desc>Default for all ingame texts but bold</Desc>
+    <RelativeFontSize>18</RelativeFontSize>
+    <RelativeFontWidth>0</RelativeFontWidth>
+    <Weight>700</Weight>
+    <Flag>TextureFont</Flag>
+    <Flag>Antialiasing</Flag>
+    <FontName>MS Gothic</FontName>
+    <DefaultColor>4278190080</DefaultColor>
+  </Font>
+  <Font>
+    <Name>Default</Name>
+    <Desc>Default for all ingame texts</Desc>
+    <RelativeFontSize>18</RelativeFontSize>
+    <RelativeFontWidth>0</RelativeFontWidth>
+    <Flag>TextureFont</Flag>
+    <Flag>Antialiasing</Flag>
+    <FontName>MS Gothic</FontName>
+    <DefaultColor>4278190080</DefaultColor>
+  </Font>
+  <Font>
+    <Name>H1</Name>
+    <Desc>Header for campaign name</Desc>
+    <RelativeFontSize>56</RelativeFontSize>
+    <RelativeFontWidth>0</RelativeFontWidth>
+    <Flag>TextureFont</Flag>
+    <Flag>Antialiasing</Flag>
+    <FontName>MS Gothic</FontName>
+    <DefaultColor>4278190080</DefaultColor>
+  </Font>
+  <Font>
+    <Name>H2</Name>
+    <Desc>Subheader for campaign name</Desc>
+    <RelativeFontSize>36</RelativeFontSize>
+    <RelativeFontWidth>0</RelativeFontWidth>
+    <Flag>TextureFont</Flag>
+    <Flag>Antialiasing</Flag>
+    <FontName>MS Gothic</FontName>
+    <DefaultColor>4278190080</DefaultColor>
+  </Font>
+  <Font>
+    <Name>CreditsTask</Name>
+    <Desc>Font for companis's tasks in credits text</Desc>
+    <RelativeFontSize>26</RelativeFontSize>
+    <RelativeFontWidth>0</RelativeFontWidth>
+    <Flag>TextureFont</Flag>
+    <Flag>Antialiasing</Flag>
+    <FontName>MS Gothic</FontName>
+    <DefaultColor>4281935115</DefaultColor>
+  </Font>
+  <Font>
+    <Name>CreditsLogo</Name>
+    <Desc>Font for Logos in credits text</Desc>
+    <RelativeFontSize>32</RelativeFontSize>
+    <RelativeFontWidth>0</RelativeFontWidth>
+    <Flag>TextureFont</Flag>
+    <Flag>Antialiasing</Flag>
+    <FontName>MS Gothic</FontName>
+    <DefaultColor>4281935115</DefaultColor>
+  </Font>
+  <Font>
+    <Name>CreditsHeader</Name>
+    <Desc>Header font for credits text</Desc>
+    <RelativeFontSize>26</RelativeFontSize>
+    <RelativeFontWidth>0</RelativeFontWidth>
+    <Flag>TextureFont</Flag>
+    <Flag>Antialiasing</Flag>
+    <FontName>MS Gothic</FontName>
+    <Flag>Shadow</Flag>
+    <ShadowOffset>
+      <x>0</x>
+      <y>-1</y>
+    </ShadowOffset>
+    <ShadowColor>4294967295</ShadowColor>
+    <DefaultColor>4281935115</DefaultColor>
+  </Font>
+  <Font>
+    <Name>Credits</Name>
+    <Desc>Main font for credits text</Desc>
+    <RelativeFontSize>22</RelativeFontSize>
+    <RelativeFontWidth>0</RelativeFontWidth>
+    <Flag>TextureFont</Flag>
+    <Flag>Antialiasing</Flag>
+    <FontName>MS Gothic</FontName>
+    <DefaultColor>4278190080</DefaultColor>
+  </Font>
+  <LinkDefaultColor>4282925838</LinkDefaultColor>
+  <LinkHoverColor>4291078763</LinkHoverColor>
+  <Text>
+    <Filename>txt/guids.txt</Filename>
+    <GUIDRangeMin>0</GUIDRangeMin>
+    <GUIDRangeMax>99999</GUIDRangeMax>
+  </Text>
+  <Text>
+    <Filename>txt/Interface.txt</Filename>
+    <GUIDRangeMin>100000</GUIDRangeMin>
+    <GUIDRangeMax>199999</GUIDRangeMax>
+  </Text>
+  <Text>
+    <Filename>txt/News.txt</Filename>
+    <GUIDRangeMin>300000</GUIDRangeMin>
+    <GUIDRangeMax>335000</GUIDRangeMax>
+  </Text>
+  <Text>
+    <Filename>txt/CPP.txt</Filename>
+    <GUIDRangeMin>5000000</GUIDRangeMin>
+    <GUIDRangeMax>9999999</GUIDRangeMax>
+  </Text>
+  <Text>
+    <Filename>txt/Campaign.txt</Filename>
+    <GUIDRangeMin>200000</GUIDRangeMin>
+    <GUIDRangeMax>209999</GUIDRangeMax>
+  </Text>
+  <Text>
+    <Filename>txt/Scenario.txt</Filename>
+    <GUIDRangeMin>1000000</GUIDRangeMin>
+    <GUIDRangeMax>1499999</GUIDRangeMax>
+  </Text>
+  <Text>
+    <Filename>txt/Misc.txt</Filename>
+    <GUIDRangeMin>1500000</GUIDRangeMin>
+    <GUIDRangeMax>1599999</GUIDRangeMax>
+  </Text>
+  <Text>
+    <Filename>txt/Keyboardlayout.txt</Filename>
+    <GUIDRangeMin>1630000</GUIDRangeMin>
+    <GUIDRangeMax>1634999</GUIDRangeMax>
+  </Text>
+  <Text>
+    <Filename>txt/Names.txt</Filename>
+    <GUIDRangeMin>1635000</GUIDRangeMin>
+    <GUIDRangeMax>1699999</GUIDRangeMax>
+  </Text>
+  <Text>
+    <Filename>txt/questdata.txt</Filename>
+    <GUIDRangeMin>500000</GUIDRangeMin>
+    <GUIDRangeMax>999999</GUIDRangeMax>
+  </Text>
+  <Text>
+    <Filename>txt/Features.txt</Filename>
+    <GUIDRangeMin>80000100</GUIDRangeMin>
+    <GUIDRangeMax>80000499</GUIDRangeMax>
+  </Text>
+  <Text>
+    <Filename>txt/Allgemein.txt</Filename>
+    <GUIDRangeMin>80000000</GUIDRangeMin>
+    <GUIDRangeMax>80000099</GUIDRangeMax>
+  </Text>
+  <Text>
+    <Filename>txt/Spielwelt.txt</Filename>
+    <GUIDRangeMin>80000500</GUIDRangeMin>
+    <GUIDRangeMax>80000599</GUIDRangeMax>
+  </Text>
+  <Text>
+    <Filename>txt/Antworten.txt</Filename>
+    <GUIDRangeMin>80009000</GUIDRangeMin>
+    <GUIDRangeMax>80009999</GUIDRangeMax>
+  </Text>
+  <Text>
+    <Filename>txt/tt_normal.txt</Filename>
+    <GUIDRangeMin>10000000</GUIDRangeMin>
+    <GUIDRangeMax>19999999</GUIDRangeMax>
+  </Text>
+  <Text>
+    <Filename>txt/tt_disabled.txt</Filename>
+    <GUIDRangeMin>20000000</GUIDRangeMin>
+    <GUIDRangeMax>29999999</GUIDRangeMax>
+  </Text>
+  <Text>
+    <Filename>txt/tt_pressed.txt</Filename>
+    <GUIDRangeMin>30000000</GUIDRangeMin>
+    <GUIDRangeMax>39999999</GUIDRangeMax>
+  </Text>
+</Localisation>
